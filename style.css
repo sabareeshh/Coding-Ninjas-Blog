@@ -1,0 +1,238 @@
+body{
+    background-color: azure;
+    margin-right:-100px;
+    margin-left:50px;
+    /* position:relative; */
+}
+
+
+
+/* main header the header that consist of coding ninja symbol */
+
+/* #main-header ul{
+    text-align: center;
+}
+
+#main-header li{
+    display:inline;
+    margin: 0px 20px 10px 20px;
+    font-family: Arial;
+}
+
+#main-header a{
+    color: black;
+    text-decoration: none;
+}
+
+#main-header a:hover{
+    text-decoration: underline;
+    /* transition-duration: 1sec; 
+}
+
+#main-header img {
+    width:150px;
+    margin-left: -200px;
+}
+
+#main-header form{
+    display:inline;
+}
+
+#main-header hr{
+    box-shadow: black;
+} */
+
+/* working on flex implementation on main and side */
+
+#flex-implement-to-main-and-aside{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+}
+
+/* main section starts here */
+
+#main-section{
+    min-width: 400px;
+    max-width: 100%vw;
+}
+
+#main-section-header li{
+    display: inline;
+    /* padding: 20px; */
+    margin-top:50px;
+    margin:20px;
+    margin-left: -15px;
+    border: solid;
+    border-color: orange;
+    border-width :0px;
+    background-color: orange;
+    padding:0px 10px;
+    /* color:white; */
+}
+
+#main-section-header a{
+    color:white;
+    text-decoration: none;
+}
+
+#main-section-header a:hover{
+    background-color: black;
+    /* border: black; */
+}
+
+#main-section-header p{
+    line-height: 25px;
+}
+
+/* starting work on main image */
+
+
+/* working on table of contents */
+
+#table-of-contents{
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+    display:inline-block;
+    background-color:aquamarine;
+}
+
+#table-of-contents ul
+{
+    margin-left: -20px;
+}
+
+#table-of-contents li
+{
+    line-height: 25px;
+}
+
+#table-of-contents a{
+    text-decoration: none;
+    color:black;
+}
+
+/* Starting to work on matter-start paragraphs */
+
+.all-para{
+    line-height: 25px;
+    font-family:sans-serif;
+    font-style: italic;
+}
+
+ /* working on display inline-block */
+#main-section{
+    display: inline-block;
+    width: 65%;
+}
+
+#aside-section{
+    display:inline-block;
+    width:25%;
+    vertical-align: top;
+}
+
+#main-image img{
+    width:95% ;
+}
+
+#aside-section img{
+    width:90%;
+}
+
+/* working on aside-section */
+
+#aside-section{
+    display:flex;
+    margin-right : 100px; 
+    flex-direction: column;
+    align-content: center;
+    min-width: 300px;
+    max-width: 100%;
+}
+
+#aside-section a{
+    text-decoration: none;
+    color:black;
+}
+
+#aside-section a:hover{
+    color:orange;
+    text-decoration: underline;
+}
+
+#form-input input{
+    width: auto;
+    height:30px;
+    /* margin:0 30px; */
+}
+
+#form-input .subscribe-input{
+    background-color: orange;
+    height:40px;
+    width: 180px;
+    color:white;
+    border-color:orange ;
+}
+
+#social{
+    position: fixed;
+    top:100px;
+    left:5px;
+}
+
+#social img{
+    /* background-color: red; */
+    width :30px;
+    display: block;
+    padding:5px
+}
+
+#facebook img{
+    background-color:#3b5998;
+}
+
+#facebook img:hover{
+    background-color: #2d4373;
+}
+
+#linkedin img{
+    background-color:#0077b5;
+}
+
+#linkedin img:hover{
+    background-color: #00121c;
+}
+
+#twitter img{
+    background-color: #83c3f3;
+}
+
+#twitter img:hover{
+    background-color:#55acee;
+}
+
+#gmail img{
+    background-color:#dd4b39;
+}
+
+#gmail img:hover{
+    background-color:#c23321;
+}
+
+#whatsapp img{
+    background-color:#6ba92f;
+}
+
+#whatsapp img:hover{
+    background-color:#528124;
+}
+
+#mail img{
+    background-color:#ed4926;
+}
+
+#mail img:hover{
+    background-color:#cf3311;
+}
